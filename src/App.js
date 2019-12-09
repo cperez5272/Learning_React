@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <main className='App'>
-        <Split className='left' flexBasis= {2}>
+        <Split className='left' flexBasis= {2} bigSize={600}>
           I am on the left side
         </Split>
         <Split className='right'>
